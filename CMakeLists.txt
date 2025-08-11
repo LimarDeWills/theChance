@@ -14,6 +14,10 @@ endif()
 
 add_executable(theChance
   src/main.cpp
+  src/engine.cpp
+  src/engine.hpp
+  src/game.cpp
+  src/game.hpp
 )
 
 find_package(SDL2 QUIET CONFIG)
